@@ -231,7 +231,7 @@ h1{
     text-align: center;
     color: aliceblue;
     margin-top: 30px;
-    font-size: 25px;
+    font-size: 20px;
     background-color: rgb(134, 9, 9);
 }
 
@@ -251,10 +251,8 @@ h1{
 }
 
 .estadio img:hover{
-    
     width: 900px;
     z-index: +1;
-    
 }
 
 
