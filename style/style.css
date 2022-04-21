@@ -200,6 +200,12 @@ ul{
     margin-bottom: 100px;
 }
 
+.partido_team:hover{
+    font-size: 30px;
+    transition: 0.5s;
+
+}
+
 
 
 
