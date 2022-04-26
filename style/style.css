@@ -53,6 +53,10 @@ header{
 
 }
 
+.nav-link:hover{
+    color: aliceblue;
+}
+
 .logo{
     font-size: 30px;
     font-weight: bold;
@@ -87,6 +91,7 @@ header{
     background-color: rgb(90, 11, 11);
     transition: 0.5s;
 }
+
 
 /*----------------INDEX----------------*/
 
@@ -209,8 +214,19 @@ ul{
 
 }
 
+.boton_partido{
+    background-color: #7c0606;
+    padding: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.7;
 
+}
 
+.boton_partido:hover{
+    color: aliceblue;
+}
 
 /*---------------ESTADIO------------------*/
 
