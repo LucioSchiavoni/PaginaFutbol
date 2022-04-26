@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>FC Bayern</title>
 
     <link rel="stylesheet" href="../style/style.css">
@@ -14,27 +15,36 @@
 
 <body>
     <header class="header">
+        
+        <div class="colornav2" id="navbarToggleExternalContent">
+            <div class="colornav">
         <nav class="nav">
 
         <a href="../index.html" class="logo nav-link">Inicio</a>
-        <button class="nav-toggle" aria-label="Abrir menú">
-            <i class="fas fa-bars"></i>
-          </button>
-        <ul class="nav-menu">
+        
+        <ul class="nav-menu nav-menu_visible" >
         <li class="nav-menu-item">
-            <a href="./equipo.html" class="nav-menu-link nav-link"> Equipo </a>
+            <a href="../pages/equipo.html" class="nav-menu-link nav-link"> Equipo </a>
         </li>
         <li class="nav-menu-item">
-            <a href="./partidos.html" class="nav-menu-link nav-link"> Fechas</a> 
+            <a href="../pages/partidos.html" class="nav-menu-link nav-link"> Fechas</a> 
         </li>
         <li class="nav-menu-item">
-            <a href="./estadio.html" class="nav-menu-link nav-link">Estadio</a> 
+            <a href="../pages/estadio.html" class="nav-menu-link nav-link">Estadio</a> 
         </li>
         <li class="nav-menu-item">
-            <a href="./redes.html" class="nav-menu-link nav-link">Revive partidos</a> 
-        </li>
-        </ul>
-        </nav>   
+            <a href="../pages/redes.html" class="nav-menu-link nav-link redes">Revive partidos</a> 
+                </li>
+            </ul>
+        </nav> 
+        
+    </div>
+</div>
+        <nav class="headernav navbar-dark bg-dark">
+            <div class="colornav2">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> 
     </header>
     <main>
         <div class="partido" > 
@@ -53,6 +63,6 @@
         <a target="_blank" href="https://www.instagram.com/fcbayern/"> <img class="icono" src="../img/instagramicono.png" alt=""> </a>
         <a target="_blank" href="https://twitter.com/FCBayernEN"> <img class="twit" src="../img/twit.png" alt="">  </a>
     </footer>
-        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
