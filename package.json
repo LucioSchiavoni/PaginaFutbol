@@ -1,0 +1,22 @@
+{
+  "name": "paginafutbol-schiavoni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/prueba.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://lucioschiavoni.github.io/Repo-PaginaFutbol/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

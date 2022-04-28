@@ -45,11 +45,15 @@ header{
     display: flex;
     justify-content: space-between;
     max-width: 992px;
+    
+    
 }
 
 .nav-link{
     color: aliceblue;
     text-decoration: none;
+    
+    
 
 }
 
@@ -62,12 +66,15 @@ header{
     font-weight: bold;
     padding: 10 0;
     width: 70px;
-    line-height: 80px;
-    margin-left: 200px;
+    
+    margin-left: 10%;
+    
 }
 
 .nav-menu{
     display:flex;
+    
+    
     margin-right: 90px;
     margin-left: 170px;
     list-style: none;
@@ -76,7 +83,7 @@ header{
 .nav-menu-item{
     font-size: 28px;
     margin: 0 60px;
-    line-height: 80px;
+    
     text-transform: uppercase;
     width: max-content;
 }
@@ -84,6 +91,8 @@ header{
 .nav-menu-link{
     padding: 10px 20px;
     border-radius: 10px;
+    
+    
 }
 
 
@@ -112,6 +121,7 @@ html{
 }
 
 
+
 .noticia1 img{
     
     width: 45rem;
@@ -135,6 +145,11 @@ ul{
     
     
     
+    
+}
+
+.kimmichtext{
+    background-color: #7c0606;
 }
 .kimmich img{
     border-radius: 10px;
@@ -368,12 +383,18 @@ footer img{
         font-size: 15px;
     }
     .noticia1 img{
-        width: 400px;
+        width: 450px;
         height: 300px;
+    }
+    .kimmichtext{
+        font-size: 20px;
+        background-color: #7c0606;
+        
     }
 
     .kimmich{
-        font-size: 15px;
+        font-size: 5px;
+        
     }
     .kimmich img{
         width: 400px;
@@ -382,7 +403,7 @@ footer img{
         font-size: 15px;
     }
     .juveniles img{
-        width: 400px;
+        width: 500px;
     }
 
     /*------ESTADIO-----*/
@@ -402,38 +423,54 @@ footer img{
         width: 400px;
     }
     
-    .nav-menu {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        background-color: #7c0606;
-        position: fixed;
-       
+    .nav-menu-item {
+        margin-left: 1%;
+        
+        
+        
     }
 
 
     @media (max-width:900px) {
     /*-------INDEX-----*/
         .noticia1{
-        
+            grid-area: "noticia1";
             font-size: 15px;
+            display: block;
         }
         .noticia1 img{
-            width: 150px;
-            height: 100px;
+            width: 350px;
+            height: 200px;
+        }
+        .grid-content{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 500px 400px 700px;
+            grid-template-areas: 
+            "noticia1"
+            "kimmich"
+            "juveniles";
         }
     
         .kimmich{
             font-size: 13px;
+            grid-area: "kimmich";
+            
+        }
+
+        .kimmichtext{
+            display: block;
         }
         .kimmich img{
-            width: 150px;
+            width: 350px;
+
         }
         .juveniles{
+            grid-area: "juveniles";
             font-size: 20px;
         }
         .juveniles img{
-            width: 150px;
+            width: 350px;
         }
         /*---EQUIPO----*/
         .equipo img{
@@ -450,21 +487,30 @@ footer img{
         /*------ESTADIO------*/
         
         .estadio img{
-            width: 150px;
+            width: 250px;
             
             
 
         }
 
+        .estadio{
+            display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 200px 500px;
+        grid-template-areas: 
+        "imagen2" "imagen3"
+        "imagen0" "imagen1";
+        }
+
         .estadiotour{
-            font-size: 15px;
+            font-size: 13px;
         }
         html{
             font-size: 15px;
         }
         /*----------REVIVE PARTIDOS------*/
     .partidos-item img{
-        width: 150px;
+        width: 300px;
     }
     /*---------MENU BARS--------*/
     
