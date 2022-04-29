@@ -525,7 +525,7 @@ footer img{
         margin: 0;
         background-color: #7c0606;
         position: fixed;
-        
+        margin: 40px;
     }
 
 
@@ -627,6 +627,7 @@ footer img{
 
 
 .nav-toggle{
+    
     color: rgb(116, 5, 5);
     background:none;
     border: none;
@@ -639,6 +640,7 @@ footer img{
 
 
 .colornav{
+    
     background-color: #7c0606;
 }
 
