@@ -1,1 +1,8 @@
-@import "partials/header";
+@import "variables/variables";
+@import "scss/operaciones";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}

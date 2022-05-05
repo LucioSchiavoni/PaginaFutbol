@@ -5,6 +5,7 @@ box-sizing: border-box;
 }
 
 body{
+    
     background-image:url(../img/imagebayern.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,11 +30,10 @@ body:before{
     opacity: 0.5;
     z-index: -1;
 }
-
-
+ 
 header{
-    background-color: #7c0606;
-    height: 90px;
+    
+    height: 140px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -52,6 +52,7 @@ header{
 .nav-link{
     color: aliceblue;
     text-decoration: none;
+
     
     }
 
@@ -206,7 +207,7 @@ ul{
 /*----------------FECHAS--------------*/
 
 .partido-list{
-    margin-top: 100px;
+    margin-top: 200px;
     list-style: none;
     
      
@@ -218,11 +219,7 @@ ul{
     color: aliceblue;
 }
 
-.partido_team:hover{
-    font-size: 30px;
-    transition: 0.5s;
 
-}
 
 .boton_partido{
     background-color: #7c0606;
@@ -360,13 +357,18 @@ footer img{
     width: 40px;
 }
 
-
+.open__menu,
+.close__menu{
+    display: none;
+}
 
 /*-------RESPONSIVE-------*/
 
 
 
 @media (max-width:1520px) {
+
+
 
     .noticia1{
         
@@ -423,6 +425,47 @@ footer img{
 
     @media (max-width:990px) {
     /*-------INDEX-----*/
+
+    .nav-menu_visible {
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background-color: skyblue;
+        height: 100%;
+        overflow-y: auto;
+
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s;
+    }
+    .open__menu,
+    .close__menu{
+        display: block;
+        border: none;
+        background: none;
+        cursor: pointer;
+}
+
+.close__menu{
+    align-self: flex-end;
+    padding: 20px 5px;
+}
+
+.menu__opened{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+button img{
+    border-radius: 50%;
+    margin-right: 10rem;
+    width: 4rem;
+    height: 4rem;
+}
         .noticia1{
             grid-area: "noticia1";
             font-size: 15px;
