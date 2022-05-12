@@ -1,3 +1,8 @@
+@import "./variables/variables";
+@import "./partials/equipo";
+@import "./mixins";
+
+
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 *{
 margin: 0;
@@ -32,7 +37,7 @@ body:before{
 }
  
 header{
-    
+    background-color: #7c0606;
     height: 140px;
     position: fixed;
     width: 100%;

@@ -1,0 +1,15 @@
+@mixin fotos ($size, $color)  {
+
+    width: $size;
+    height: 500px;
+    margin-top: 200px;
+    border: solid $color;
+    margin-left: 30%;
+    
+    
+}
+
+
+.galeria{
+    @include fotos($size,$color )
+}
