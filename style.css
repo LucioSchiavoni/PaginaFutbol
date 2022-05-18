@@ -6,12 +6,17 @@
   border: solid #7c0606;
   margin-left: 30%; }
 
+footer {
+  background-color: #7c0606;
+  height: 9rem;
+  margin-top: 8rem; }
+
 * {
   margin: 0;
   box-sizing: border-box; }
 
 body {
-  background-image: url(./img/imagebayern.jpeg);
+  background-image: url(../img/imagebayern.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -225,9 +230,7 @@ h1 {
   border: solid #be0e0e;
   transition: 2s; }
 
-.partidos-item img:hover {
-  height: 550px;
-  width: 900px; }
+
 
 /*-----------------GRID---------------*/
 .grid-content {
@@ -246,9 +249,9 @@ h1 {
 
 /*---------------FOOTER--------------*/
 footer {
-  height: 90px;
+  
   font-size: 30px;
-  margin-top: 70px;
+  
   text-align: center;
   color: aliceblue; }
 
@@ -468,9 +471,3 @@ footer img {
 
 .headernav {
   height: 10px; }
-
-.galeriap{
-  color: aliceblue;
-  text-align: center;
-  font-size: 40px;
-}
