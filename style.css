@@ -14,8 +14,8 @@ footer {
   margin: 0;
   box-sizing: border-box; }
 
-body {
-  background-image: url(../img/imagebayern.jpeg);
+body {  
+  background-image: url(./img/imagebayern.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -229,7 +229,9 @@ h1 {
   border: solid #be0e0e;
   transition: 2s; }
 
-
+.partidos-item img:hover {
+  height: 550px;
+  width: 900px; }
 
 /*-----------------GRID---------------*/
 .grid-content {
@@ -404,21 +406,18 @@ footer img {
     width: 210px; }
   .estadiotour {
     font-size: 14px; }
-
-    .estadio img{
-      width: 200px;
-    }
   /*----Revivi Partidos----*/
   .partidos-item img {
     width: 200px; }
-  }
+  .partidos-item img:hover {
+    width: 220px;
+    height: 170px; } }
 
 @media (max-width: 400px) {
   .grid-content {
     display: grid;
-    
     grid-template-columns: 100%;
-    grid-template-rows: 800px 300px 990px;
+    grid-template-rows: 600px 200px 990px;
     grid-template-areas: "noticia1"
  "kimmich"
  "juveniles"; }
@@ -436,9 +435,9 @@ footer img {
     height: 120px; }
   /*---estadio-----*/
   .estadio img {
-    width: 150px; }
-  
-
+    width: 140px; }
+  .estadio img:hover {
+    width: 160px; }
   .estadiotour {
     font-size: 14px; }
   /*---Revivi Partidos------*/
