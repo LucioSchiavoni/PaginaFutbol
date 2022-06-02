@@ -229,9 +229,7 @@ h1 {
   border: solid #be0e0e;
   transition: 2s; }
 
-.partidos-item img:hover {
-  height: 550px;
-  width: 900px; }
+
 
 /*-----------------GRID---------------*/
 .grid-content {
@@ -409,9 +407,7 @@ footer img {
   /*----Revivi Partidos----*/
   .partidos-item img {
     width: 200px; }
-  .partidos-item img:hover {
-    width: 220px;
-    height: 170px; } }
+   }
 
 @media (max-width: 400px) {
   .grid-content {
@@ -443,9 +439,7 @@ footer img {
   /*---Revivi Partidos------*/
   .partidos-item img {
     width: 150px; }
-  .partidos-item img:hover {
-    width: 150px;
-    height: 140px; } }
+ }
 
 /*------MENU BARS--------*/
 .nav-toggle {
