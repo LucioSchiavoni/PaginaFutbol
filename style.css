@@ -371,6 +371,11 @@ footer img {
     font-size: 13px; }
   html {
     font-size: 15px; }
+
+    .galeria{
+      width: 400px;
+      height: 300px;
+    }
   /*----------REVIVE PARTIDOS------*/
   .partidos-item img {
     width: 300px; }
@@ -404,6 +409,11 @@ footer img {
     width: 210px; }
   .estadiotour {
     font-size: 14px; }
+    .galeria{
+      width: 400px;
+      height: 300px;
+      margin-right: 45%;
+    }
   /*----Revivi Partidos----*/
   .partidos-item img {
     width: 200px; }
@@ -436,6 +446,12 @@ footer img {
     width: 160px; }
   .estadiotour {
     font-size: 14px; }
+
+    .galeria{
+      width: 200px;
+      height: 200px;
+      margin-right: 10%;
+    }
   /*---Revivi Partidos------*/
   .partidos-item img {
     width: 150px; }
